@@ -4,7 +4,7 @@
     <div v-if="loading">Загружается</div>
     <div v-if="info">
       <h1>{{ mainInfo.city }}, {{ mainInfo.temp }}°</h1>
-      <p>Влажность {{ mainInfo.humidity }}% Ветер {{ mainInfo.wind } }м/с</p>
+      <p>Влажность {{ mainInfo.humidity }}% Ветер {{ mainInfo.wind }} м/с</p>
       <p>{{ mainInfo.weather }}</p>
     </div>
   </div>
